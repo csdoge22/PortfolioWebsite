@@ -1,0 +1,83 @@
+body{
+    background-color: yellow;
+    animation: example 10s linear 1s alternate infinite;
+}
+@keyframes example {
+    from {background-color:yellow}
+    to {background-color:white}
+}
+#header{
+    background-image: url('office.jpeg');
+}
+#list{
+    list-style: none;
+    background-color: black;
+    padding: 20px;
+}
+#list li {
+    /* navigation bar displays links in a horizontal manner */
+    margin: 10px;
+    padding: 8px;
+    display: inline;
+    float: inline;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border-collapse: collapse;
+    border: none;
+    width: auto;
+    height: auto;
+}
+.btn:hover{
+    background-color: gray;
+}
+#hd{
+    text-align: center;
+    font-size: 72px;
+    background-color: rgba(255,0,0,0.6);
+    border: none;
+    margin: 50px;
+    color: black;
+    padding-top: 20px;
+}
+#pjs{
+    text-align:center;
+    font-size: 48px;
+    background-color: yellowgreen;
+    margin: 50px;
+    padding: 10px;
+}
+#contacts{
+    font-size: 50px;
+}
+#main{
+    font-size: 36px;
+    border: solid;
+    border-radius: 5px;
+}
+#contacts{
+    background-color: teal;
+    text-align: center;
+    border: solid;
+    margin: 50px;
+    padding: 30px;
+}
+#button{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border-color: transparent;
+}
+#l{
+    background-color: blue;
+}
+#i{
+    background-color: pink;
+}
+#y{
+    background-color: maroon;
+}
+#hd:hover{
+    background-color: salmon;
+}
